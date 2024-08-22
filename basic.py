@@ -36,3 +36,9 @@ largex = np.random.uniform(0.0, 5.0, 100000) #uniform data dist
 # x = np.random.normal(5.0, 1.0, 100000) #normal data dist
 plt.hist(x, 100)
 plt.show()
+
+#random data dist
+x = np.random.normal(5.0, 1.0, 1000)
+y = np.random.normal(10.0, 2.0, 1000)
+plt.scatter(x, y)
+plt.show()
